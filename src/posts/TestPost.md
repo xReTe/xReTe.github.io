@@ -1,5 +1,5 @@
 ---
-layout: minimal.njk
+layout: home.njk
 title: Test Post
 ---
 

@@ -1,0 +1,12 @@
+{% extends "base.njk" %}
+{% block content %}
+<article>
+    <div class="[ article__media ] [radius dor-shadow ]">
+        <img 
+            src="{{ banner.image }}" 
+            alt="{{ banner.imageAlrt }}"
+        />
+    </div>
+   {{ content | safe }}
+</article>
+{% endblock %}
